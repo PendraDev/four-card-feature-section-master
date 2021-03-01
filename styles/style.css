@@ -26,6 +26,7 @@ body {
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
+    background-color: var(--Very_Light_Gray);
 }
 
 section h1, h2 {
@@ -53,5 +54,62 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 7.5rem 2.5rem 2.5rem 2.5rem;
+    margin: 7.5rem 3rem 5rem;
+}
+
+/* ==============
+    main section
+   ==============
+*/
+
+main h2 {    
+    font-size: 2rem;
+    color: var(--Very_Dark_Blue);
+}
+
+main p {
+    line-height: 23px;
+    font-size: 1.3rem;
+    letter-spacing: 0.09px;
+    color: var(--Grayish_Blue);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {    
+    display: flex;
+    flex-direction: column;
+    height: 222px;
+    margin: 1.25rem 3rem;
+    padding: 2.5rem;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 1px 5px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.box :last-child {
+    padding-top: 1.4rem;
+    align-self: flex-end;
+    align-content: flex-end;
+    
+
+}
+.box1 {   
+    border-top: solid var(--Cyan) 4px;    
+}
+
+.box2 {
+    border-top: solid var(--Red) 4px;  
+}
+
+.box3 {
+    border-top: solid var(--Orange) 4px;  
+}
+
+.box4 {
+    border-top: solid var(--Blue) 4px;  
+    margin-bottom: 7.5rem;
 }
