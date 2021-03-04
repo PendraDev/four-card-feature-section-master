@@ -22,7 +22,9 @@ html {
 }
 
 body {
-    width: 100%;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;    
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
@@ -75,14 +77,16 @@ main p {
 }
 
 .container {
+   
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .box {    
     display: flex;
     flex-direction: column;
-    height: 222px;
+    width: 311px;
     margin: 1.25rem 3rem;
     padding: 2.5rem;
     border-radius: 8px;
